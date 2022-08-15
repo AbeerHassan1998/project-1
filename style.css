@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    height: 10vh;
+    margin: 0 auto;
+    padding: 0 5rem;
+
+}
+.logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+
+}
+.logo i{
+    color: #6e0aef;
+    padding-left: 0.75rem;
+}
+h4{
+    font-family: 'Lalezar', cursive;
+}
+.nav-items{
+    display: flex;
+    list-style-type: none;
+}
+.nav-item{
+    padding: 1rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 1.4rem;
+}
+.nav-link:hover{
+    color: #6e0aef;
+}
+
+.hero{
+    background-color: #f8f7fc;
+}
+
+.hero-section{
+    max-width: 1366;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+p{
+    color: rgb(29, 29,29);
+    font-size: 1.4rem;
+}
+span{
+    color: #6e0aef;
+}
+.btn{
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius: .5rem;
+    border: none;
+    padding: 00.75rem 1.5rem;
+    background-color: #6e0aef;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #b183ec;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.FEATURES{
+    padding: 2REM 0;
+    background-color: #f8f7fc;
+}
+.FEATURES-SECTION{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}.FEATURES-SECTION h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+margin-bottom: 2rem;
+}
+.qualities{
+    display: flex;
+    justify-content: space-between;
+}
+.quality{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:white ;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+ .quality:hover{
+    border: 2px solid #6e0aef;
+}
+.quality i{
+    font-size: 2rem;
+    color: #6e0aef;
+    margin-bottom: 1rem;
+}
+.quality h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.quality p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4e547e;
+}
+.newest-phones{
+    padding-top: 5rem;
+}
+.phones-section{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.phones-section h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.phones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start; 
+
+}
+.phone{
+margin: 2rem 0;
+max-width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.phone img{
+    margin-bottom: 1rem;
+}
+.phone img:hover{
+    scale: 1.1;
+}
+.phone h3{
+    font-size: 1.6rem;
+}
+.phones-section button{
+    width: 15rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+footer{
+    background-color: #f8f7fc;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366;
+    margin: 0 auto;
+    padding: 0 5rem;
+
+}
+.footer-section p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.socials{
+    margin-bottom: 1rem;
+}
+.socials i{
+    padding: 0 0 5rem;
+    font-size: 1.6rem;
+}
+.socials i:hover {
+    color: #6e0aef;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
